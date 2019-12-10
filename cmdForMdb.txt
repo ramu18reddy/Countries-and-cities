@@ -1,0 +1,5 @@
+mongoimport --db Countries --collection Country --file /home/spsoft/json_Files/countries.json --jsonArray
+
+mongoimport --db Countries --collection State --file /home/spsoft/json_Files/states.json --jsonArray
+
+mongoimport --db Countries --collection City --file /home/spsoft/json_Files/cities.json --jsonArray
